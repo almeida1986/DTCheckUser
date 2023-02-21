@@ -142,7 +142,7 @@ function console_menu() {
         ;;
     00 | 0)
         echo '[*] Saindo...'
-        exit 0
+        criar
         ;;
     *)
         echo '[*] Opção inválida!'
