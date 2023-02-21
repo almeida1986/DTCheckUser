@@ -112,7 +112,7 @@ function get_version() {
 function console_menu() {
     clear
 
-    echo -n 'CHECKUSER MENU v1 - '
+    echo -n 'CHECKUSER DTUNNEL MENU v1 - '
     if is_installed; then
         echo -e '\e[32m[INSTALADO]\e[0m - Versao:' $(get_version)
     else
